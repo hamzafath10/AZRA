@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Contactez Azra Property — Gestion locative à Casablanca.">
+<title>Contact — Azra Property</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<style>
+.contact-wrap {
+  display:grid; grid-template-columns:1fr 1fr;
+  min-height:calc(100vh - 68px); margin-top:68px;
+}
+.cl {
+  background:var(--navy); padding:100px 80px;
+  display:flex; flex-direction:column; justify-content:center;
+}
+.cl h1 {
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(42px,5vw,62px); font-weight:400;
+  color:var(--white); line-height:1.1; margin:16px 0 20px;
+}
+.cl h1 em { font-style:italic; color:var(--gold); font-weight:300; }
+.cl .pt-lt { max-width:360px; margin-bottom:52px; font-size:15px; }
+.cdet { display:flex; gap:16px; align-items:flex-start; margin-bottom:28px; }
+.cico {
+  width:34px; height:34px;
+  border:1px solid rgba(212,184,150,.2);
+  display:flex; align-items:center; justify-content:center; flex-shrink:0;
+}
+.cico svg { width:14px; height:14px; stroke:var(--gold); fill:none; stroke-width:1.2; }
+.cdet h5 {
+  font-family:'Sora',sans-serif; font-size:9px; font-weight:500;
+  letter-spacing:2.5px; text-transform:uppercase;
+  color:rgba(255,255,255,.25); margin-bottom:4px;
+}
+.cdet p {
+  font-family:'Source Sans 3',sans-serif; font-size:14px;
+  font-weight:300; color:rgba(255,255,255,.7);
+}
+.cr {
+  background:var(--off); padding:100px 80px;
+  display:flex; flex-direction:column; justify-content:center;
+}
+.cr h2 {
+  font-family:'Cormorant Garamond',serif; font-size:28px;
+  font-weight:400; color:var(--text); margin-bottom:40px;
+}
+.fg { margin-bottom:24px; }
+.fg label {
+  font-family:'Sora',sans-serif; font-size:9px; font-weight:500;
+  letter-spacing:2.5px; text-transform:uppercase; color:var(--mid);
+  display:block; margin-bottom:9px;
+}
+.fg input, .fg select, .fg textarea {
+  width:100%; border:none; border-bottom:1px solid rgba(0,0,0,.1);
+  background:transparent; padding:11px 0;
+  font-family:'Source Sans 3',sans-serif; font-size:14px; font-weight:300;
+  color:var(--text); outline:none; transition:border-color .25s;
+  -webkit-appearance:none; border-radius:0;
+}
+.fg input:focus, .fg select:focus, .fg textarea:focus {
+  border-bottom-color:var(--gold);
+}
+.fg textarea { resize:none; height:100px; }
+.frow { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.form-note {
+  font-family:'Source Sans 3',sans-serif; font-size:12px;
+  font-weight:300; color:var(--faint); margin-top:16px;
+}
+@media (max-width:1100px) {
+  .contact-wrap { grid-template-columns:1fr; }
+  .cl { padding:80px 48px; }
+  .cr { padding:80px 48px; }
+}
+@media (max-width:768px) {
+  .cl { padding:64px 24px; }
+  .cr { padding:64px 24px; }
+  .frow { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+
+<header id="hdr" data-solid="true">
+  <a href="index.html" class="logo-wrap">
+    <img class="logo-img" src="assets/images/logo.png" alt="Azra Property"
+         style="height:38px;width:auto;display:block;">
+    <span class="logo-fallback" style="display:none;">
+      <span class="lf-main">AZRA</span>
+      <span class="lf-sub">PROPERTY</span>
+    </span>
+  </a>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="logements.html">Logements</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html" class="hbtn active">Contact</a>
+  </nav>
+</header>
+
+<div class="contact-wrap">
+  <div class="cl">
+    <div class="eye eye-lt">Nous écrire</div>
+    <h1>Parlons de<br><em>votre bien.</em></h1>
+    <p class="pt pt-lt">Réponse sous 24 heures. L'estimation est gratuite et sans engagement de votre part.</p>
+    <div class="cdet">
+      <div class="cico">
+        <svg viewBox="0 0 16 16"><path d="M2 3h12v10H2z"/><path d="M2 3l6 6 6-6"/></svg>
+      </div>
+      <div>
+        <h5>Email</h5>
+        <p>contact@azraproperty.com</p>
+      </div>
+    </div>
+    <div class="cdet">
+      <div class="cico">
+        <svg viewBox="0 0 16 16"><path d="M3 2h3l1.5 3.5-2 1.5a9 9 0 004.5 4.5l1.5-2L15 11v3c0 .6-.4 1-1 1A13 13 0 012 2c0-.6.4-1 1-1z"/></svg>
+      </div>
+      <div>
+        <h5>WhatsApp</h5>
+        <p>+212 6XX XXX XXX</p>
+      </div>
+    </div>
+    <div class="cdet">
+      <div class="cico">
+        <svg viewBox="0 0 16 16"><path d="M8 1C4.7 1 2 3.7 2 7c0 4.4 6 9 6 9s6-4.6 6-9c0-3.3-2.7-6-6-6z"/><circle cx="8" cy="7" r="2"/></svg>
+      </div>
+      <div>
+        <h5>Localisation</h5>
+        <p>Casablanca, Maroc</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cr">
+    <h2>Demande d'information</h2>
+    <form onsubmit="return false;">
+      <div class="frow">
+        <div class="fg"><label>Prénom</label><input type="text" placeholder="Votre prénom"></div>
+        <div class="fg"><label>Nom</label><input type="text" placeholder="Votre nom"></div>
+      </div>
+      <div class="fg"><label>Email</label><input type="email" placeholder="votre@email.com"></div>
+      <div class="fg"><label>Téléphone</label><input type="tel" placeholder="+212 6XX XXX XXX"></div>
+      <div class="fg">
+        <label>Vous êtes</label>
+        <select>
+          <option value="" disabled selected>Sélectionnez</option>
+          <option>Propriétaire — je souhaite confier mon bien</option>
+          <option>Voyageur — je cherche un logement</option>
+          <option>Autre demande</option>
+        </select>
+      </div>
+      <div class="fg">
+        <label>Quartier du bien (si propriétaire)</label>
+        <select>
+          <option value="" disabled selected>Sélectionnez</option>
+          <option>Maarif</option>
+          <option>Gauthier</option>
+          <option>Anfa</option>
+          <option>CIL</option>
+          <option>Ain Diab</option>
+          <option>Autre quartier</option>
+        </select>
+      </div>
+      <div class="fg">
+        <label>Message</label>
+        <textarea placeholder="Décrivez brièvement votre bien ou votre demande..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-fill" style="border:none;cursor:pointer;">
+        Envoyer la demande
+      </button>
+      <p class="form-note">Vos informations sont confidentielles et ne seront jamais partagées.</p>
+    </form>
+  </div>
+</div>
+
+<footer>
+  <div class="ft-top">
+    <div class="ft-brand">
+      <img class="logo-img" src="assets/images/logo.png" alt="Azra Property"
+           style="height:34px;width:auto;display:block;">
+      <span class="logo-fallback" style="display:none;">
+        <span class="lf-main" style="font-size:17px;">AZRA PROPERTY</span>
+      </span>
+      <p>Gestion locative courte durée à Casablanca. Nous prenons en charge votre bien avec méthode et discrétion.</p>
+    </div>
+    <div class="ft-col">
+      <h5>Navigation</h5>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="logements.html">Nos logements</a></li>
+        <li><a href="services.html">Nos services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="services.html">Gestion Airbnb</a></li>
+        <li><a href="services.html">Gestion Booking</a></li>
+        <li><a href="services.html">Mise en valeur</a></li>
+        <li><a href="services.html">Reporting mensuel</a></li>
+      </ul>
+    </div>
+    <div class="ft-col">
+      <h5>Légal</h5>
+      <ul>
+        <li><a href="mentions-legales.html">Mentions légales</a></li>
+        <li><a href="confidentialite.html">Confidentialité</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ft-bot">
+    <p>© 2026 Azra Property. Tous droits réservés.</p>
+    <div class="ft-div"></div>
+    <div class="ft-links">
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
